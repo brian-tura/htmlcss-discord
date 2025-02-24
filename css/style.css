@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Utility */
+.d-flex{
+    display: flex;
+}
+
+.just-center{
+    justify-content: center;
+}
+
+
+
+/* header */
+header{
+    background-color: #255EE9;
+}
+
+button{
+    border-radius: 30px;
+    padding: 8px 15px;
+    border: none;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+li{
+    padding: 0 20px;
+    color: white;
+}
+/* fine header */
+
+.container{
+    margin: 0px auto;
+    display: flex;
+    max-width: 1200px;
+    padding: 20px 0;
+}
+
+.container-sm{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.main-col{
+    width: 100%;
+}
+
+.just-flex-end{
+    justify-content: flex-end;
+}
+
+.sp{
+    justify-content: space-between;
+}
+
+.content{
+    padding: 10px;
+    align-items: center;
+}
+
+.border-black{
+    border: 2px dashed black;
+}
+
+.border-white{
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+}
+
+
+.bg-cheddar{
+    background-color: rgb(255, 196, 0);
+}
+
+.bg-navy{
+    background-color: navy;
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+.bg-blue{
+    background-color: rgb(0, 110, 255);
+}
+
+.bg-grey{
+    background-color: rgb(197, 197, 197);
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-light-blue{
+    background-color: lightblue;
+}
+
+.bg-dark-grey{
+    background-color: rgb(59, 59, 59);
+}
+
+/* Logo link e login */
+
+.side-col{
+    width: 20%;
+}
+
+.middle-col{
+    justify-content: center;
+    width: 60%;
+}
+
+/* Container rosa */
+.min-h-400{
+    min-height: 400px;
+}
+
+.min-w-900{
+    min-width: 45%;
+}
+
+
+/* Rettangolo blu rettangolo rosa */
+.min-h-600{
+    min-height: 600px;
+}
+
+.small-col{
+    width: 30%;
+}
+
+.big-col{
+    width: 70%;
+}
+
+.py-40{
+    padding: 40px 0;
+}
+
+/* Rettangolo rosa rettangolo blu */
+.reverse-row{
+    flex-direction: row-reverse;
+}
+
+/* Rettangolo verde */
+.min-h-800{
+    min-height: 800px;
+}
+
+/* Footer */
+.end{
+    margin-top: 20px;
+}
+
+#jumbotron{
+    background-image: url(../img/jumbo.png);
+    padding: 40px 0;
+    background-size: cover;
+}
+
+.left-col{
+    width: 600px;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.other-col{
+    width: 300px;
+}
+
+.h-600{
+    height: 600px;
+}
+
+.foot{
+    margin: 0px auto;
+    display: flex;
+    max-width: 1200px;
+}
