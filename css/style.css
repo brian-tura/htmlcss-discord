@@ -19,11 +19,6 @@
     flex-direction: column;
 }
 
-.al-items-top{
-    align-items: flex-start;
-}
-
-
 .al-items-center{
     align-items: center;
 }
@@ -62,16 +57,16 @@
     justify-content: flex-start;    
 }
 
-.just-sb{
-    justify-content: space-between;
-}
-
 .my-20{
     margin: 20px auto;
 }
 
 .main-col{
     width: 100%;
+}
+
+.bg-grey{
+    background-color: rgb(235, 235, 235);
 }
 /* Fine utility */
 
@@ -216,6 +211,9 @@ li{
     margin: 10px auto;
 }
 
+.py-40{
+    padding: 40px 0;
+}
 /* Fine grande immagine */
 
 /* Inizio Footer prima parte */
@@ -287,70 +285,23 @@ ul.show-col > li:first-child{
 
  /* Fine Liste */
 
-
-
-
-
-
-
-
-.border-black{
-    border: 2px dashed black;
-}
-
-.border-white{
-    border-top: solid 1px white;
-    border-bottom: solid 1px white;
-}
-
-
-.bg-grey{
-    background-color: rgb(235, 235, 235);
-}
-
-.bg-green{
-    background-color: green;
-}
-
-.bg-light-blue{
-    background-color: lightblue;
-}
-
-
-/* Rettangolo blu rettangolo rosa */
-
-
-
-
-.py-40{
-    padding: 40px 0;
-}
-
-/* Rettangolo rosa rettangolo blu */
-
-
-/* Rettangolo verde */
-.min-h-800{
-    min-height: 800px;
-}
-
-/* Footer */
+ /* Inizio Footer seconda parte */
 .end{
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
-
-
-
-
-
-.row{
-    flex-direction: row;
-}
-
-
 
 .foot{
     margin: 0px auto;
     display: flex;
     max-width: 1200px;
+}
+
+.border-ds-color{
+    border-top: solid 1px rgb(54, 91, 255);
+}
+
+.btn-footer{
+    background-color: rgb(54, 91, 255);
+    color: white;
+    padding: 10px 10px;
 }
