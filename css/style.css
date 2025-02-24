@@ -1,109 +1,106 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 /* Utility */
-.d-flex{
+.d-flex {
     display: flex;
 }
 
-.just-center{
+.just-center {
     justify-content: center;
 }
 
-.show-col{
+.show-col {
     flex-direction: column;
 }
 
-.al-items-center{
+.al-items-center {
     align-items: center;
 }
 
-.txt-align-center{
+.txt-align-center {
     text-align: center;
 }
 
-.txt-align-bot{
+.txt-align-bot {
     text-align: end;
     text-align: center;
 }
 
-.bg-dark-grey{
+.bg-dark-grey {
     background-color: rgb(41, 41, 41);
 }
 
-.content{
+.content {
     padding: 10px;
     align-items: center;
     justify-content: center;
 }
 
-.container{
+.container {
     margin: 0px auto;
     display: flex;
     max-width: 1200px;
     padding: 20px 0;
 }
 
-.just-flex-end{
+.just-flex-end {
     justify-content: flex-end;
 }
 
-.just-flex-start{
-    justify-content: flex-start;    
-}
-
-.my-20{
+.my-20 {
     margin: 20px auto;
 }
 
-.main-col{
+.main-col {
     width: 100%;
 }
 
-.bg-grey{
+.bg-grey {
     background-color: rgb(235, 235, 235);
 }
+
 /* Fine utility */
 
 /* Header */
-header{
+header {
     background-color: #255EE9;
 }
 
-button{
+button {
     border-radius: 30px;
     padding: 8px 15px;
     border: none;
 }
 
-ul{
+ul {
     list-style-type: none;
     display: flex;
 }
 
-li{
+li {
     padding: 0 20px;
     color: white;
 }
 
-.side-col{
+.side-col {
     width: 20%;
 }
 
-.middle-col{
+.middle-col {
     justify-content: center;
     width: 60%;
 }
+
 /* Fine header */
 
 /* Jumbo */
 
-#jumbotron{
+#jumbotron {
     background-image: url(../img/jumbo.png);
     padding: 40px 0;
     background-size: cover;
@@ -114,50 +111,51 @@ li{
     line-height: 30px;
 }
 
-.container-sm{
+.container-sm {
     max-width: 50%;
     margin: 0 auto;
 }
 
-.butt-main{
+.butt-main {
     margin: 0 15px;
     font-size: 20px;
     padding: 10px 20px;
 }
 
-.title{
+.title {
     margin: 10px 0;
 }
 
-.txt-color-white{
+.txt-color-white {
     color: white;
 }
+
 /* Fine jumbo */
 
 /* Prima immagine */
 
-.f-size-28{
+.f-size-28 {
     font-size: 28px;
 }
 
-.pt-20{
+.pt-20 {
     padding-top: 25px;
     padding-bottom: 17px;
 }
 
-.small-col{
+.small-col {
     width: 30%;
 }
 
-.big-col{
+.big-col {
     width: 65%;
 }
 
-.h-100{
+.h-100 {
     height: 100%;
 }
 
-.lh-25{
+.lh-25 {
     line-height: 25px;
     font-size: 15px;
 }
@@ -166,7 +164,7 @@ li{
 
 /* Seconda immagine */
 
-.reverse-row{
+.reverse-row {
     flex-direction: row-reverse;
 }
 
@@ -174,26 +172,26 @@ li{
 
 /* Inizio Grande immagine */
 
-.container-img{
+.container-img {
     margin: 0px auto;
     display: flex;
     max-width: 1200px;
 }
 
-.big-img{
+.big-img {
     width: 1200px;
 }
 
-.title-big-img{
+.title-big-img {
     font-size: 25px;
 }
 
-.txt-big-img{
+.txt-big-img {
     font-size: 20px;
     width: 85%;
 }
 
-.bg-img{
+.bg-img {
     background-image: url(../img/stars.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -203,7 +201,7 @@ li{
 
 }
 
-.btn-big-img{
+.btn-big-img {
     background-color: rgb(80, 112, 255);
     color: white;
     font-size: 17px;
@@ -211,44 +209,45 @@ li{
     margin: 10px auto;
 }
 
-.py-40{
+.py-40 {
     padding: 40px 0;
 }
+
 /* Fine grande immagine */
 
 /* Inizio Footer prima parte */
 
-    /* Inizio Titolo Footer */
+/* Inizio Titolo Footer */
 
-.h-600{
+.h-600 {
     height: 600px;
 }
 
-.footer{
+.footer {
     padding: 30px;
     padding-left: 50px;
 }
 
-.footer > div > h3{
+.footer>div>h3 {
     font-size: 30px;
     max-width: 90%;
     margin: 10px 0;
     color: rgb(54, 91, 255);
 }
 
-.p-3{
+.p-3 {
     padding: 3px;
 }
 
-.bandiera{
+.bandiera {
     width: 30px;
 }
 
-.p-top{
+.p-top {
     padding-top: 8px;
 }
 
-.icons{
+.icons {
     display: flex;
     justify-content: space-between;
     max-width: 40%;
@@ -256,51 +255,51 @@ li{
     font-size: 20px;
 }
 
-    /* Fine titolo footer */
+/* Fine titolo footer */
 
-    /* Inizio Liste */
+/* Inizio Liste */
 
-.p-30{
+.p-30 {
     padding-top: 30px;
 }
 
-ul.show-col > li{
+ul.show-col>li {
     margin: 8px 0;
 }
 
-ul.show-col > li:first-child{
+ul.show-col>li:first-child {
     color: rgb(54, 91, 255);
     font-weight: 600;
 }
 
-.other-col{
+.other-col {
     width: 70%;
     display: flex;
     justify-content: space-between;
 }
 
-.left-col{
+.left-col {
     width: 30%;
 }
 
- /* Fine Liste */
+/* Fine Liste */
 
- /* Inizio Footer seconda parte */
-.end{
+/* Inizio Footer seconda parte */
+.end {
     margin-bottom: 20px;
 }
 
-.foot{
+.foot {
     margin: 0px auto;
     display: flex;
     max-width: 1200px;
 }
 
-.border-ds-color{
+.border-ds-color {
     border-top: solid 1px rgb(54, 91, 255);
 }
 
-.btn-footer{
+.btn-footer {
     background-color: rgb(54, 91, 255);
     color: white;
     padding: 10px 10px;
