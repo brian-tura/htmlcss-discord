@@ -19,14 +19,54 @@
     flex-direction: column;
 }
 
-.txt-align{
+.al-items-center{
+    align-items: center;
+}
+
+.txt-align-center{
     text-align: center;
 }
 
 .bg-dark-grey{
     background-color: rgb(59, 59, 59);
 }
-/* header */
+
+.content{
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    margin: 0px auto;
+    display: flex;
+    max-width: 1200px;
+    padding: 20px 0;
+}
+
+.just-flex-end{
+    justify-content: flex-end;
+}
+
+.just-flex-start{
+    justify-content: flex-start;    
+}
+
+.txt-align-left{
+    text-align: left;
+}
+
+.just-sa{
+    justify-content: space-around;
+}
+
+.lh-30{
+    line-height: 25px;
+}
+
+/* Fine utility */
+
+/* Header */
 header{
     background-color: #255EE9;
 }
@@ -46,9 +86,18 @@ li{
     padding: 0 20px;
     color: white;
 }
-/* fine header */
 
-/* Il tuo posto per parlare */
+.side-col{
+    width: 20%;
+}
+
+.middle-col{
+    justify-content: center;
+    width: 60%;
+}
+/* Fine header */
+
+/* Jumbo */
 
 #jumbotron{
     background-image: url(../img/jumbo.png);
@@ -79,31 +128,48 @@ li{
 .txt-color-white{
     color: white;
 }
+/* Fine jumbo */
 
-.container{
-    margin: 0px auto;
-    display: flex;
-    max-width: 1200px;
-    padding: 20px 0;
+/* Prima immagine */
+
+.f-size-25{
+    font-size: 25px;
 }
+
+.s-bold{
+    font-weight:500;
+}
+
+.my-20{
+    margin: 20px 0;
+}
+
+.small-col{
+    width: 28%;
+}
+
+.big-col{
+    width: 60%;
+}
+
+.h-100{
+    height: 100%;
+}
+
 
 .main-col{
     width: 100%;
 }
 
-.just-flex-end{
-    justify-content: flex-end;
+.min-h-600{
+    min-height: 600px;
 }
 
 .sp{
     justify-content: space-between;
 }
 
-.content{
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .border-black{
     border: 2px dashed black;
@@ -144,40 +210,10 @@ li{
 }
 
 
-
-/* Logo link e login */
-
-.side-col{
-    width: 20%;
-}
-
-.middle-col{
-    justify-content: center;
-    width: 60%;
-}
-
-/* Container rosa */
-.min-h-400{
-    min-height: 400px;
-}
-
-.min-w-900{
-    min-width: 45%;
-}
-
-
 /* Rettangolo blu rettangolo rosa */
-.min-h-600{
-    min-height: 600px;
-}
 
-.small-col{
-    width: 30%;
-}
 
-.big-col{
-    width: 70%;
-}
+
 
 .py-40{
     padding: 40px 0;
@@ -210,10 +246,6 @@ li{
 
 .other-col{
     width: 300px;
-}
-
-.h-600{
-    height: 600px;
 }
 
 .foot{
