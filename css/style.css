@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -14,8 +15,17 @@
     justify-content: center;
 }
 
+.show-col{
+    flex-direction: column;
+}
 
+.txt-align{
+    text-align: center;
+}
 
+.bg-dark-grey{
+    background-color: rgb(59, 59, 59);
+}
 /* header */
 header{
     background-color: #255EE9;
@@ -38,16 +48,43 @@ li{
 }
 /* fine header */
 
+/* Il tuo posto per parlare */
+
+#jumbotron{
+    background-image: url(../img/jumbo.png);
+    padding: 40px 0;
+    background-size: cover;
+    height: 500px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+}
+
+.container-sm{
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.butt-main{
+    margin: 0 15px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.title{
+    margin: 10px 0;
+}
+
+.txt-color-white{
+    color: white;
+}
+
 .container{
     margin: 0px auto;
     display: flex;
     max-width: 1200px;
     padding: 20px 0;
-}
-
-.container-sm{
-    max-width: 70%;
-    margin: 0 auto;
 }
 
 .main-col{
@@ -65,6 +102,7 @@ li{
 .content{
     padding: 10px;
     align-items: center;
+    justify-content: center;
 }
 
 .border-black{
@@ -105,9 +143,7 @@ li{
     background-color: lightblue;
 }
 
-.bg-dark-grey{
-    background-color: rgb(59, 59, 59);
-}
+
 
 /* Logo link e login */
 
@@ -162,11 +198,7 @@ li{
     margin-top: 20px;
 }
 
-#jumbotron{
-    background-image: url(../img/jumbo.png);
-    padding: 40px 0;
-    background-size: cover;
-}
+
 
 .left-col{
     width: 600px;
