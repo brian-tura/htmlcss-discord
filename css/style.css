@@ -56,10 +56,6 @@
     justify-content: flex-start;    
 }
 
-.txt-align-left{
-    text-align: left;
-}
-
 .just-sb{
     justify-content: space-between;
 }
@@ -170,11 +166,28 @@ li{
     flex-direction: row-reverse;
 }
 
+/* Fine immagini */
 
+/* Inizio Grande immagine */
 
+.container-img{
+    margin: 0px auto;
+    display: flex;
+    max-width: 1200px;
+}
 
+.big-img{
+    width: 1200px;
+}
 
+.title-big-img{
+    font-size: 25px;
+}
 
+.txt-big-img{
+    font-size: 20px;
+    width: 85%;
+}
 
 
 
