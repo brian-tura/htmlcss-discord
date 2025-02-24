@@ -23,11 +23,17 @@
     align-items: flex-start;
 }
 
+
 .al-items-center{
     align-items: center;
 }
 
 .txt-align-center{
+    text-align: center;
+}
+
+.txt-align-bot{
+    text-align: end;
     text-align: center;
 }
 
@@ -189,7 +195,42 @@ li{
     width: 85%;
 }
 
+.bg-img{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20%;
+    width: 40%;
+    font-size: 20px;
 
+}
+
+.btn-big-img{
+    background-color: rgb(80, 112, 255);
+    color: white;
+    font-size: 17px;
+    padding: 10px 20px;
+    margin: 10px auto;
+}
+
+/* Fine grande immagine */
+
+/* Inizio Footer prima parte */
+
+.h-600{
+    height: 600px;
+}
+
+.title-footer{
+    padding: 20px;
+    font-size: 25px;
+    max-width: 80%;
+    color: rgb(80, 112, 255);
+}
+
+.p-footer{
+    
+}
 
 
 .main-col{
@@ -233,7 +274,7 @@ li{
 }
 
 .bg-grey{
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(235, 235, 235);
 }
 
 .bg-green{
